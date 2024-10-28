@@ -3,6 +3,7 @@ import React from 'react'
 import { useCart } from '../context/CartProvider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
 export default function CartProducts({product}) {
 
@@ -34,7 +35,12 @@ export default function CartProducts({product}) {
       <div className='flex-1'>
         <div className='flex'>
           <div className='flex-[40%]'>
-            <img className='min-w-full' src={product.src} alt={product.title} />
+            <Image className='min-w-full'
+              src={product.src}
+              alt={product.title}
+              width={500}
+              height={300}
+            />
           </div>
           <div className='flex-[60%] flex flex-col justify-center items-center'>
             <h3 className='text-[1.2rem] text-red-900 font-bold'>

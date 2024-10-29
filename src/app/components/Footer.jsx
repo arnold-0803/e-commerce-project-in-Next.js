@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import SubscribeButton from './SubscribeButton'
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -13,8 +14,10 @@ export default function Footer() {
             <p className='text-[#fff] text-[2rem]'>
               The<FontAwesomeIcon icon={faGear}/>Carz
             </p>  
-            <img className='w-[80px]'
+            <Image className='w-[80px]'
               src="/photos/Logo.png" alt=""
+              width={500}
+              height={300}
             />
           </h1>
           <p className='text-[#fff]'>
@@ -38,12 +41,6 @@ export default function Footer() {
           <p className="text-[0.85rem] text-[#fff]">(+254)714387538</p>
           <p className="text-[0.85rem] text-[#fff]">info@thecarz.com</p>
         </div>
-        {/* <div>
-          <h4 className="font-bold text-[#fff] pb-2">community</h4>
-          <p className="text-[0.85rem] text-[#fff]">Atomic garage</p>
-          <p className="text-[0.85rem] text-[#fff]">Eastland Paints</p>
-          <p className="text-[0.85rem] text-[#fff]">GitHub</p>
-        </div> */}
         <div className='flex flex-col'>
           <h4 className="font-bold text-[#fff] pb-2">Legal Agreement</h4>
           <a className='text-[#fff] text-[0.85rem]' href='#'>Privacy Policy</a>
@@ -78,27 +75,39 @@ export default function Footer() {
           <h4 className='font-bold text-[#fff] pb-2'>Payment</h4>
           <div className='grid grid-cols-4 gap-2'>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <img className='w-full h-full'
-                src="/partners-images/M-PESA_LOGO-01.svg.png" alt="" />
+              <Image className='w-full h-full'
+                src="/partners-images/M-PESA_LOGO-01.svg.png" alt="" 
+                width={500}
+                height={300}
+              />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <img className='w-full h-full'
-                src="/partners-images/Mastercard-logo.svg.png" alt="" />
+              <Image className='w-full h-full'
+                src="/partners-images/Mastercard-logo.svg.png" alt="" 
+                width={500}
+                height={300}
+              />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <img className='w-full h-full'
-                src="/partners-images/visa-svgrepo-com.svg" alt="" />
+              <Image className='w-full h-full'
+                src="/partners-images/visa-svgrepo-com.svg" alt="" 
+                width={500}
+                height={300}
+              />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <img className='w-full h-full'
-                src="/partners-images/Google_Pay_Logo.svg.png" alt="" />
+              <Image className='w-full h-full'
+                src="/partners-images/Google_Pay_Logo.svg.png" alt=""
+                width={500}
+                height={300}
+              />
             </div>
           </div>
         </div>
       </div>
       <div className='pt-6 pb-3 text-[#fff]'>
           Powered by Arnold Kiritu ©2024 | All rights reserved
-        </div>
+      </div>
     </footer>
   )
 }

@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 import { galleryData } from '../../../../data/db';
-import Image from 'next/image';
 
 export const dynamicParams =true;
 
@@ -49,7 +48,7 @@ export default async function DetailsPage({params}) {
       </h1>
       <div className='py-8 px-8 flex flex-wrap gap-8 max-[768px]:flex-col'>
         <div className='flex-1'>
-          <Image className='w-full' src={data.src} alt="" width={500} height={300}/>
+          <img className='w-full' src={data.src} alt=""/>
         </div>
         <div className='flex-1 flex flex-col items-center justify-center'>
           <h3 className='py-5 text-red-900 md:text-[1.4rem] font-bold'>

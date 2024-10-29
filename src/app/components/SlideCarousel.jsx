@@ -8,8 +8,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Link from 'next/link';
-import Image from 'next/image';
 
 const SlideCarousel = ({
   info,
@@ -42,7 +40,7 @@ const SlideCarousel = ({
       {info.map(item => (
         <SwiperSlide className='swiper-slide' key={item.id}>
           {/* structure for general swiper */}
-          <Image src={item.src} alt="" width={500} height={300}/>
+          <img src={item.src} alt=""/>
           <div className='layer-content absolute top-0 left-0 w-full h-full text-white py-4 
             flex justify-center items-start lg:px-14 max-[769px]:flex-col'>
             <div className='flex-1 flex flex-col h-full justify-center items-center'>

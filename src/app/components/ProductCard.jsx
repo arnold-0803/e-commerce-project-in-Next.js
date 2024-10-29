@@ -36,7 +36,9 @@ export default function ProductCard({data, customHref}) {
         ) : (
         <>
           <div className='flex-1'>
-            <img className="w-full scale-[.75]" src={data.src} alt="" />
+            <img className="w-full scale-[.75]"
+              src={data.src} alt=""
+            />
           </div>
           <div className='flex-1 relative flex flex-col justify-end items-center'>
             <h3 className='text-center font-black text-red-900 pb-1'>

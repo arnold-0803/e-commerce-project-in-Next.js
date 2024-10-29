@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
 
 export default function HeroBanner({bannerData, customClass}) {
   return (
@@ -8,10 +7,8 @@ export default function HeroBanner({bannerData, customClass}) {
         <div className='flex flex-wrap sm:px-5 pt-2 max-[700px]:flex-col'
           key={item.id}>
           <div className='flex-1 relative'>
-            <Image className=''
+            <img className=''
               src={item.imageBanner} alt="Hero Banner"
-              width={500}
-              height={300}
             />
             <div className='gradient absolute flex flex-col top-0 w-full h-full
               justify-center items-center p-5'>

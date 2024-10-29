@@ -6,7 +6,6 @@ import { usePathname, useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 import { useCart } from '../context/CartProvider';
 import { useFavourite } from '../context/FavouriteProvider';
-import Image from 'next/image';
 
 export default function HeaderSecondTop() {
 
@@ -42,10 +41,8 @@ export default function HeaderSecondTop() {
             <p className='text-red-900 text-[2rem]'>
               The<FontAwesomeIcon icon={faGear}/>Carz
             </p>  
-            <Image className='w-[80px]'
+            <img className='w-[80px]'
               src="/photos/Logo.png" alt=""
-              width={500}
-              height={300}
             />
           </Link>
         </h1>

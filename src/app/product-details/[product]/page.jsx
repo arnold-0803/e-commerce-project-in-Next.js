@@ -2,7 +2,6 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import AddToCartForm from '@/app/components/AddToCartForm';
 import { productData } from '../../../../data/db';
-import Image from 'next/image';
 
 export const dynamicParams =true;
 
@@ -51,10 +50,8 @@ export default async function ProductDetails({params}) {
       <h1 className='heading'>{data.title}</h1>
       <div className='flex flex-wrap py-[30px] max-[600px]:flex-col gap-[1rem]'>
         <div className='flex-1'>
-          <Image className='border-[1px] border-gray-300'
+          <img className='border-[1px] border-gray-300'
             src={data.src} alt=""
-            width={500}
-            height={300}
           />
           <p className='text-gray-500 text-[1.2rem]'>
             {data.subtitle}

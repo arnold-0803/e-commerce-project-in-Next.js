@@ -1,9 +1,8 @@
-import { faGear } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
-import SubscribeButton from './SubscribeButton'
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import Image from 'next/image'
+import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import SubscribeButton from './SubscribeButton';
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -14,10 +13,8 @@ export default function Footer() {
             <p className='text-[#fff] text-[2rem]'>
               The<FontAwesomeIcon icon={faGear}/>Carz
             </p>  
-            <Image className='w-[80px]'
+            <img className='w-[80px]'
               src="/photos/Logo.png" alt=""
-              width={500}
-              height={300}
             />
           </h1>
           <p className='text-[#fff]'>
@@ -75,31 +72,23 @@ export default function Footer() {
           <h4 className='font-bold text-[#fff] pb-2'>Payment</h4>
           <div className='grid grid-cols-4 gap-2'>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <Image className='w-full h-full'
-                src="/partners-images/M-PESA_LOGO-01.svg.png" alt="" 
-                width={500}
-                height={300}
+              <img className='w-full h-full'
+                src="/partners-images/M-PESA_LOGO-01.svg.png" alt=""
               />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <Image className='w-full h-full'
-                src="/partners-images/Mastercard-logo.svg.png" alt="" 
-                width={500}
-                height={300}
+              <img className='w-full h-full'
+                src="/partners-images/Mastercard-logo.svg.png" alt=""
               />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <Image className='w-full h-full'
+              <img className='w-full h-full'
                 src="/partners-images/visa-svgrepo-com.svg" alt="" 
-                width={500}
-                height={300}
               />
             </div>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <Image className='w-full h-full'
+              <img className='w-full h-full'
                 src="/partners-images/Google_Pay_Logo.svg.png" alt=""
-                width={500}
-                height={300}
               />
             </div>
           </div>

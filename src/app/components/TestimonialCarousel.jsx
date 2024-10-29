@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import SlideCarousel from './SlideCarousel'
-import Image from 'next/image';
 
 export default function TestimonialReviews({data}) {
 
@@ -66,10 +65,8 @@ export default function TestimonialReviews({data}) {
             <div className='md:w-[600px] p-5 bg-[#fff] mt-[240px] rounded-lg
               flex flex-col justify-center items-center max-[713px]:mt-[550px]'>
               <div className='rounded-lg overflow-hidden'>
-                <Image className='w-full'
+                <img className='w-full'
                   src={selectedReview.src} alt=""
-                  width={500}
-                  height={300}
                 />
               </div>
               <h4 className='font-bold text-[1.2rem] text-red-900 py-3'>

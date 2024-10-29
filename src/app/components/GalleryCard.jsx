@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import SkeletonLoader1 from './SkeletonLoader1';
-import Image from 'next/image';
 
 export default function GalleryCard({data}) {
 
@@ -26,9 +25,8 @@ export default function GalleryCard({data}) {
       ) : (
         <>
           <div className='overflow-hidden rounded-[8px]'>
-            <Image className='w-full' src={data.src} alt={data.title}
-              width={500}
-              height={300}
+            <img className='w-full'
+              src={data.src} alt={data.title}
             />
           </div>
           <h4 className='min-[532px]:absolute min-[532px]:bottom-[45px] font-black pt-4'>

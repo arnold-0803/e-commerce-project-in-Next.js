@@ -38,19 +38,13 @@ export default function Footer() {
           <p className="text-[0.85rem] text-[#fff]">(+254)714387538</p>
           <p className="text-[0.85rem] text-[#fff]">info@thecarz.com</p>
         </div>
-        {/* <div>
-          <h4 className="font-bold text-[#fff] pb-2">community</h4>
-          <p className="text-[0.85rem] text-[#fff]">Atomic garage</p>
-          <p className="text-[0.85rem] text-[#fff]">Eastland Paints</p>
-          <p className="text-[0.85rem] text-[#fff]">GitHub</p>
-        </div> */}
         <div className='flex flex-col'>
           <h4 className="font-bold text-[#fff] pb-2">Legal Agreement</h4>
           <a className='text-[#fff] text-[0.85rem]' href='#'>Privacy Policy</a>
           <a className='text-[#fff] text-[0.85rem]' href='#'>Terms of Service</a>
         </div>
         <div>
-          <h4 className='font-bold text-[#fff] pb-2'>Social</h4>
+          <h4 className='font-bold text-[#fff] pb-2 pt-4'>Social</h4>
           <div className='flex gap-3'>
             <a className='block bg-[#fff] w-10 h-10 flex justify-center items-center
               text-red-900 text-[1.2rem] rounded-[30px]' 
@@ -75,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h4 className='font-bold text-[#fff] pb-2'>Payment</h4>
+          <h4 className='font-bold text-[#fff] pb-2 pt-6'>Payment</h4>
           <div className='grid grid-cols-4 gap-2'>
             <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
               <img className='w-full h-full'

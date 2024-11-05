@@ -50,18 +50,18 @@ export default function Contact() {
               </p>
             </div>
             <div className='w-full'>
-              <p className='text-gray-500 font-semibold p-2'>
-                <FontAwesomeIcon className='text-red-950 text-[1.3rem]'
+              <p className='text-gray-500 font-semibold p-2 max-[768px]:text-[0.92rem] md:text-[1.2rem]'>
+                <FontAwesomeIcon className='text-red-950'
                   icon={faPhone}
                 /> (+254)714387538
               </p>
-              <p className='text-gray-500 font-semibold p-2'>
-                <FontAwesomeIcon className='text-red-950 text-[1.3rem]'
+              <p className='text-gray-500 font-semibold p-2 max-[768px]:text-[0.92rem] md:text-[1.2rem]'>
+                <FontAwesomeIcon className='text-red-950'
                   icon={faEnvelope}
                 /> info@thecarz.com
               </p>
-              <p className='text-gray-500 font-semibold p-2'>
-                <FontAwesomeIcon className='text-red-950 text-[1.3rem]'
+              <p className='text-gray-500 font-semibold p-2 max-[768px]:text-[0.92rem] md:text-[1.2rem]'>
+                <FontAwesomeIcon className='text-red-950'
                   icon={faLocationDot}
                 /> Vision 2030 Tower, Rd C123, Nairobi, KE
               </p>
@@ -95,6 +95,9 @@ export default function Contact() {
             </div>
           </div>
           <div className='flex-1 flexjustify-center items-center'>
+            <h3 className='font-bold text-center text-blue-300 md:text-[1.2rem]'>
+              Sent us message
+            </h3>
             <form className='flex flex-col py-3 px-2'>
               <input className='w-[100%] h-[60px] outline-none bg-gray-100 border-[1px] px-2 mb-4 font-semibold'
                 type="text" placeholder='Name'

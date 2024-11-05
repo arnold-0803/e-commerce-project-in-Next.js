@@ -49,8 +49,8 @@ export default function ShoppingCart() {
         ):(
           <ul className='cart-list'>
             {cartItems.map(item => (
-              <li>
-                <CartProducts key={item.id} product={item}/>
+              <li key={item.id}>
+                <CartProducts product={item}/>
               </li>
             ))}
           </ul>

@@ -69,10 +69,10 @@ export default async function Home() {
         />
       </div>
       <div>
-        <HomeGallery galleryData={galleries}/>
+        <PopularProducts popularData={popular}/>
       </div>
       <div>
-        <PopularProducts popularData={popular}/>
+        <HomeGallery galleryData={galleries}/>
       </div>
       <div>
         <PartnerLogoSlide/>

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import SearchedProducts from './SearchedProducts';
 import { productData } from '../../../data/db';
+import Loading from '../components/Loading';
 
 
 async function getProducts(){
@@ -37,9 +38,11 @@ export default async function Searched() {
   return (
     <div className='list-holder max-[640px]:px-[5px]'>
       <h2 className='heading'>SEARCHED PRODUCTS</h2>
-      <div className='pb-20'>
-        <SearchedProducts products={products}/>
-      </div>
+      <Suspense fallback={<Loading/>}>
+        <div className='pb-20'>
+          <SearchedProducts products={products}/>
+        </div>
+      </Suspense>
     </div>
   )
 }

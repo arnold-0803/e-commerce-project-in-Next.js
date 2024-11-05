@@ -25,7 +25,8 @@ body{
     font-family: "Dancing Script", cursive;
   }
 
-  h1 p{
+  h1 p,
+  .emblem{
     font-family: "Dancing Script", cursive;
   }
 

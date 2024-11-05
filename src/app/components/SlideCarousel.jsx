@@ -45,10 +45,10 @@ const SlideCarousel = ({
           <div className='layer-content absolute top-0 left-0 w-full h-full text-white py-4 
             flex justify-center items-start lg:px-14 max-[769px]:flex-col'>
             <div className='flex-1 flex flex-col h-full justify-center items-center'>
-              <h2 className='lg:text-6xl font-semibold text-center lg:pb-[10px]'>
+              <h2 className='md:text-[3.5rem] max-[768px]:text-[1.5rem] font-bold text-center'>
                 {item.heading}
               </h2>
-              <h1 className='lg:text-4xl font-semibold text-center pb-[20px]'>
+              <h1 className='emblem md:text-[3rem] max-[768px]:text-[2rem] font-bold text-center pb-[20px]'>
                 {item.subHeading}
               </h1>
               <p className='text-center lg:text-[1.2rem]'>

@@ -193,7 +193,7 @@ body{
 }
 
 .shop-wrapper .colored{
-  @apply bg-red-900
+  @apply bg-red-900;
 }
 
 .shop-wrapper .gradient{
@@ -319,7 +319,6 @@ body{
   backdrop-filter: blur(30px);
   padding: 40px 15px;
   @apply fixed top-0 left-[50%] bottom-0 w-full h-full z-50;
-  /* visibility: hidden; */
   transform: translate(-50%);
   overflow-y: scroll;
 }
@@ -422,8 +421,6 @@ button{
   width: 90%;
   height: 16px;
 }
-
-
 
 .wrapper {
   display: flex;

@@ -61,7 +61,7 @@ export default function HeaderSecondTop() {
           </form>
         </div>
         <div className="flex gap-4 text-gray-300 text-[28px]
-          max-[768px]:absolute top-[4%] z-50 px-2">
+          max-[768px]:absolute top-[105%] z-50 px-2">
           <Link className={`${isActive("/user") ? "active-icon-links" : ""}`} href={"/user"}>
             <FontAwesomeIcon className='middle-header-icons mt-[6px]' icon={faUser}/>
           </Link>

@@ -36,9 +36,11 @@ export default function RootLayout({ children }) {
       >
         <FavouriteProvider>
           <CartProvider>
-            <HeaderFirstTop/>
-            <HeaderSecondTop/>
-            <Navbar/>
+            <div className="relative">
+              <HeaderFirstTop/>
+              <HeaderSecondTop/>
+              <Navbar/>
+            </div>
             {children}
             <Footer/>
           </CartProvider>

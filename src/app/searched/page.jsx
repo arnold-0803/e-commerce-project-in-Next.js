@@ -26,7 +26,7 @@ async function getProducts(){
   */
 
   // Current implementation using local data
-  return productData;
+  return productData || [];
 }
 
 

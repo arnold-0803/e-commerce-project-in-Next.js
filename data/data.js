@@ -172,10 +172,13 @@ export const shopBannerData = [
 
 
 export const blogsBannerData = [
-  // {
-  //   id: 0,
-  //   imageBanner: ,
-  // }
+  {
+    id: 0,
+    heading: "Automotive News",
+    imageBanner1: "/photos/challenger-5880009_640.jpg",
+    imageBanner2: "/photos/5abc50acafa29cb8c81f69a89c22e499.jpg",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facilis minima quae nobis dolore repellat consequuntur amet, enim doloribus labore commodi in! Ipsum earum similique libero quaerat! Cum, perferendis id. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+  }
 ]
 
 
@@ -196,4 +199,69 @@ export const aboutData = [
     title: "OUR VISION", 
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem atque architecto rerum amet obcaecati voluptatibus, consequuntur, ipsa vero numquam eos impedit sunt doloremque vel facere eum? Neque odio reiciendis nam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur enim fugit doloribus a fugiat quo unde atque tempora odit facilis qui, voluptatibus consequatur saepe beatae quasi corrupti adipisci quam iusto."
   }
-] 
+]
+
+
+// BLOGS DATA
+export const blogsData = [
+  {
+    id: 0,
+    image: "https://i.pinimg.com/236x/d8/d0/14/d8d014682e020cd36348a2fe8f6130e4.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 1,
+    image: "https://i.pinimg.com/236x/8e/ad/3b/8ead3b380470fbfad34589e39debeb96.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 2,
+    image: "https://i.pinimg.com/236x/aa/fd/67/aafd672e6de7aa9181d5a03e2a3a0974.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 3,
+    image: "https://i.pinimg.com/474x/10/fa/18/10fa18a247ce48724a64df977a0b353e.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 4,
+    image: "https://i.pinimg.com/236x/24/73/89/24738946ef08532752ae7b81d0555623.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 5,
+    image: "https://i.pinimg.com/736x/82/a5/78/82a578b30bc712d8239b637714d6a6e5.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 6,
+    image: "https://i.pinimg.com/474x/37/1a/f5/371af55ddbea76858111f98cb244d869.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 7,
+    image: "https://i.pinimg.com/236x/c6/47/f1/c647f1ec7b2c149ed06e640b8b40ed4f.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 8,
+    image: "https://i.pinimg.com/236x/96/ce/e9/96cee9de21f97b99ff925fc75393244a.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  },
+  {
+    id: 9,
+    image: "https://i.pinimg.com/236x/bd/06/8c/bd068cbe0ca236da59fd0011cd39a459.jpg",
+    heading: "Lorem ipsum Blah Blah Blah...",
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam quia illo, repudiandae nihil excepturi impedit ipsum nisi porro alias cupiditate nemo, aliquid in voluptates sequi facilis, est eum perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, itaque repellat! Laboriosam nesciunt illum reprehenderit? Provident, eos vel quidem minima minus cumque esse praesentium, totam eligendi suscipit eveniet dolorum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quo aliquam! Reprehenderit, esse pariatur architecto alias temporibus aut possimus odit quibusdam veniam nesciunt. Sed a maxime repudiandae, nobis corporis et."
+  }
+]

@@ -256,6 +256,18 @@ body{
   background: #93c5fd;
 }
 
+.blogs-wrapper .absolute{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.blogs-wrapper li:nth-child(even) .blog-container{
+  @apply flex-row-reverse max-[640px]:flex-col;
+}
+
+.blogs-wrapper li:nth-child(odd) .blog-container{
+  @apply flex max-[640px]:flex-col;
+}
+
 .home-hero-swiper{
   min-height: 50vh;
   border-radius: 10px;

@@ -156,13 +156,15 @@ body{
 
 .hero-banner .heading,
 .achievement .heading,
-.enlarge-review .heading{
+.enlarge-review .heading,
+.blogs-wrapper .heading{
   color: #fff;
 }
 
 .hero-banner .heading::before,
 .achievement .heading::before,
-.enlarge-review .heading::before{
+.enlarge-review .heading::before,
+.blogs-wrapper .heading::before{
   position: absolute;
   content: "";
   left: 50%;
@@ -176,7 +178,8 @@ body{
 
 .hero-banner .heading::after,
 .achievement .heading::after,
-.enlarge-review .heading::after{
+.enlarge-review .heading::after,
+.blogs-wrapper .heading::after{
   position: absolute;
   content: "";
   top: 90%;

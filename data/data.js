@@ -171,6 +171,14 @@ export const shopBannerData = [
 ]
 
 
+export const blogsBannerData = [
+  // {
+  //   id: 0,
+  //   imageBanner: ,
+  // }
+]
+
+
 // ABOUT DATA
 export const aboutData = [
   {

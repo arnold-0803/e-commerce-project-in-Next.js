@@ -46,7 +46,7 @@ export default async function blogs() {
           BE IN THE KNOW 
         </h2>
         <h3 className='text-center pb-10 text-red-950 font-bold'>
-          ABOUT WHAT'S HAPPENING IN THE WORLD OF AUTOMOTIVES
+          ABOUT WHAT&apos;S HAPPENING IN THE WORLD OF AUTOMOTIVES
         </h3>
         <ul className='lg:px-[150px] max-[1024px]:px-[15px] flex flex-col gap-[1rem]'>
           {(blogs).map(blog => (

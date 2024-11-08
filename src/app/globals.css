@@ -261,11 +261,11 @@ body{
 }
 
 .blogs-wrapper li:nth-child(even) .blog-container{
-  @apply flex-row-reverse max-[640px]:flex-col;
+  @apply flex-row-reverse max-[768px]:flex-col;
 }
 
 .blogs-wrapper li:nth-child(odd) .blog-container{
-  @apply flex max-[640px]:flex-col;
+  @apply flex max-[768px]:flex-col;
 }
 
 .home-hero-swiper{

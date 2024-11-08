@@ -32,7 +32,7 @@ export default async function blogs() {
               />
               <div className='absolute top-0 left-0 w-full h-full flex justify-center
                 items-center'>
-                <p className='text-[#fff] z-20 font-medium max-[640px]:px-2 sm:px-5 
+                <p className='text-[#fff] font-medium max-[640px]:px-2 sm:px-5 
                   max-[640px]:text-[0.9rem]'>
                   {blogBannerData.paragraph}
                 </p>
@@ -42,13 +42,14 @@ export default async function blogs() {
         ))}
       </div>
       <div>
-        <h2 className='text-center pt-4 text-red-900 font-bold sm:text-[1.5rem]'>
+        <h2 className='text-center pt-4 text-red-900 font-extrabold sm:text-[1.5rem]'>
           BE IN THE KNOW 
         </h2>
         <h3 className='text-center pb-10 text-red-950 font-bold'>
           ABOUT WHAT&apos;S HAPPENING IN THE WORLD OF AUTOMOTIVES
         </h3>
-        <ul className='lg:px-[150px] max-[1024px]:px-[15px] flex flex-col gap-[1rem]'>
+        <ul className='lg:px-[120px] max-[1024px]:px-[15px] flex flex-col gap-[2rem]
+          pb-16'>
           {(blogs).map(blog => (
             <li key={blog.id}>
               <Blogs blog={blog}/>

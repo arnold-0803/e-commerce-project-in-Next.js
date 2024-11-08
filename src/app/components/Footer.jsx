@@ -71,19 +71,23 @@ export default function Footer() {
         <div>
           <h4 className='font-bold text-[#fff] pb-2 pt-6'>Payment</h4>
           <div className='grid grid-cols-4 gap-2'>
-            <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
+            <div className='sm:w-[60px]  sm:h-[40px] max-[640px]:w-[40px] max-[640px]:h-[30px] 
+              rounded-[3px] bg-[#fff] p-1'>
               <img className='w-full h-full'
                 src="/partners-images/M-PESA_LOGO-01.svg.png" alt="" />
             </div>
-            <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
-              <img className='w-full h-full'
+            <div className='sm:w-[60px]  sm:h-[40px] max-[640px]:w-[40px] max-[640px]:h-[30px] 
+              rounded-[3px] bg-[#fff] p-1'>
+              <img className='sm:w-full sm:h-full'
                 src="/partners-images/Mastercard-logo.svg.png" alt="" />
             </div>
-            <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
+            <div className='sm:w-[60px]  sm:h-[40px] max-[640px]:w-[40px] max-[640px]:h-[30px] 
+              rounded-[3px] bg-[#fff] p-1'>
               <img className='w-full h-full'
                 src="/partners-images/visa-svgrepo-com.svg" alt="" />
             </div>
-            <div className='w-[60px]  h-[40px] rounded-[3px] bg-[#fff] p-1'>
+            <div className='sm:w-[60px]  sm:h-[40px] max-[640px]:w-[40px] max-[640px]:h-[30px] 
+              rounded-[3px] bg-[#fff] p-1'>
               <img className='w-full h-full'
                 src="/partners-images/Google_Pay_Logo.svg.png" alt="" />
             </div>

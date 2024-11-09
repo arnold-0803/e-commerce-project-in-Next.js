@@ -59,6 +59,17 @@ export default function ShoppingCart() {
       {cartItems.length > 0 ? (
         <div className='flex flex-col justify-between min-[500px]:w-1/2 max-[500px]:w-full self-end
           pt-5'>
+          <div className='pb-5'>
+            <form>
+              <input className='accent-red-900 w-[20px] h-[20px]'
+                type="checkbox" required
+              /> <em className='font-medium'>I have confirmed the number of products and I am 
+                    ordering the correct part for my vehicle. Further, I have 
+                    read, understood and agreed with your terms of service, 
+                    transport, and refunding policies.
+                 </em>
+            </form>
+          </div>
           <p className='font-black text-red-500'>
             SUBTOTAL: KES {getCartTotalAmount()}
           </p>

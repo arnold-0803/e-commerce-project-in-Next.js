@@ -11,7 +11,7 @@ export default async function blogs() {
   const blogs = await getBlogs();
   return (
     <div className='blogs-wrapper'>
-      <div>
+      <div className='pt-2'>
         {blogsBannerData.map(blogBannerData => (
           <div className='flex flex-wrap max-[640px]:flex-col'
             key={blogBannerData.id}>

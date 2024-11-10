@@ -2,7 +2,7 @@
 
 ### Pitch Deck presentation Click Here [Car modification Presentation.pdf](https://github.com/user-attachments/files/17692754/Car.modification.Presentation.pdf)
 
-### Website //https://the-carz.vercel.app/
+### Website https://the-carz.vercel.app/
 
 ## Features of the Web Application
 **-Gallery**

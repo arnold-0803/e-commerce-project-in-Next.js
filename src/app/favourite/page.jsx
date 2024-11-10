@@ -10,8 +10,8 @@ export default function Favourite() {
   return (
     <div className='list-holder px-10'>
       <h2 className='heading'>FAVOURITE PRODUCTS</h2>
-      <ul className='w-full grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] gap-y-[2rem] gap-x-[10px]
-        justify-center items-center mt-5'>
+      <ul className='w-full grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] gap-y-[2rem] 
+      gap-x-[10px] justify-center items-center mt-5 pb-10'>
         {favouriteItems.length > 0 ? (
           favouriteItems.map(product => (
             <li className='md:max-w-[300px]'

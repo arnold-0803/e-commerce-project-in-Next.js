@@ -68,19 +68,19 @@ export default function ShoppingCart() {
                     read, understood and agreed with your terms of service, 
                     transport, and refunding policies.
                  </em>
+              <p className='font-black text-red-500 pt-3'>
+                UBTOTAL: KES {getCartTotalAmount()}
+              </p>
+              <div className='flex justify-between items-center pt-2 xl:pr-48'>
+              <Link className='quick-link font-medium'
+                href={"/shop"}>
+                Back to Shop
+              </Link>
+              <button className='block bg-red-900 py-2 px-5 text-white'>
+                Checkout
+              </button>
+              </div>
             </form>
-          </div>
-          <p className='font-black text-red-500'>
-            SUBTOTAL: KES {getCartTotalAmount()}
-          </p>
-          <div className='flex justify-between items-center pt-2 xl:pr-48'>
-          <Link className='quick-link'
-            href={"/shop"}>
-            Back to Shop
-          </Link>
-          <Link className='block bg-red-900 py-2 px-5 text-white'
-            href={""}>Checkout
-          </Link>
           </div>
         </div>
       ) : (

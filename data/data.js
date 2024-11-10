@@ -11,9 +11,9 @@ export const navItemsData = [
 
 // HOME-SLIDE DATA
 export const homeSlideData = [
-  {id: 0, src: "/photos/Banner2.png", heading: "Hey👋! Welcome to", subHeading: "The Carz", paragraph: "This your best custom body kits dealer company. Shop with us for a very splendid experience, where you get to find product in our shelves and more services packed with every body kit you need in one place"},
+  {id: 0, src: "/photos/Banner2.png", heading: "Hey👋! Welcome to", subHeading: "The Carz", paragraph: "This is your best custom body kits dealer company. Shop with us for a very splendid experience, where you get to find product in our shelves and more services packed with every body kit you need in one place"},
   {id: 1, src: "/photos/Banner3.png", heading: "You🫵! Welcome to", subHeading: "The Carz", paragraph: "When you shop with The Carz company you stand a chance for a recomendation to a garage that will help you fix the body kit to your car by experienced profesionals at a very affordable prices"},
-  {id: 2, src: "/photos/Banner1.png", heading: "Yes You👊! Welcome to", subHeading: "The Carz", paragraph: "Did you know that you can get subscribe for premium services? Premium subscription enhances your customer experience, it gives you powers on advernced services"}
+  {id: 2, src: "/photos/Banner1.png", heading: "Yes You👊! Welcome to", subHeading: "The Carz", paragraph: "Did you know that you can get subscribed for premium services? Premium subscription enhances your customer experience, it gives you powers on advernced services"}
 ]
 
 
@@ -131,7 +131,7 @@ export const QuestionAndAnswer = [
 ]
 
 
-// BANNERs DATA
+// BANNERS DATA
 export const ContactBannerData = [
   {
     id: 1,

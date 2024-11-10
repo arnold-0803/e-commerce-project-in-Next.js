@@ -370,7 +370,7 @@ body{
 }
 
 .list-holder{
-  @apply md:px-[80px] pb-20;
+  @apply md:px-[80px] pb-4;
 }
 
 .card-list{

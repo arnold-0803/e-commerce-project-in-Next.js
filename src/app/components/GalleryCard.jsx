@@ -19,7 +19,7 @@ export default function GalleryCard({data}) {
 
   return (
     <div className='relative min-[532px]:h-[330px] border-[1.5px] p-3 rounded-2xl 
-      hover:shadow-none shadow-md text-red-950'>
+      hover:shadow-none shadow-md text-red-950 bg-[#fff]'>
       {loading ? (
         <SkeletonLoader1/>
       ) : (

@@ -11,7 +11,7 @@ export default function HomeGallery({galleryData}) {
   }
 
   return (
-    <div className='galleries md:px-12 py-10'>
+    <div className='galleries md:px-12 py-10 bg-red-50'>
       <h1 className='heading'>GALLERY</h1>
       <ul className='card-list'>
         {galleryData && galleryData.slice(0, visibleItems).map(gallery => (

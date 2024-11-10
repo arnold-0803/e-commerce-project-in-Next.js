@@ -1,3 +1,30 @@
+# A WEB APP PROJECT FOR ONLINE SHOPPING OF CAR BODY KITS
+## FOR CAR MODIFICATION
+
+### Pitch Deck presentation Click Here [Car modification Presentation.pdf](https://github.com/user-attachments/files/17692754/Car.modification.Presentation.pdf)
+
+## Features of the Web Application
+**-Gallery**
+
+**-Products/Products search**
+
+**-Add To Cart**
+
+**-Add to Favourite**
+
+**-Blogs/News**
+
+
+
+
+### Technologies used
+*__Next.js,__*
+
+*__javaScript and__*
+
+*__TailwindCSS__*
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

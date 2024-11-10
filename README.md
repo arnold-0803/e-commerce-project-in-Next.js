@@ -1,5 +1,4 @@
-# A WEB APP PROJECT FOR ONLINE SHOPPING OF CAR BODY KITS
-## FOR CAR MODIFICATION
+# A WEB APP PROJECT FOR ONLINE SHOPPING OF CAR BODY KITS FOR CAR MODIFICATION
 
 ### Pitch Deck presentation Click Here [Car modification Presentation.pdf](https://github.com/user-attachments/files/17692754/Car.modification.Presentation.pdf)
 

@@ -177,7 +177,7 @@ export const blogsBannerData = [
     heading: "Automotive News",
     imageBanner1: "/photos/challenger-5880009_640.jpg",
     imageBanner2: "/photos/5abc50acafa29cb8c81f69a89c22e499.jpg",
-    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facilis minima quae nobis dolore repellat consequuntur amet, enim doloribus labore commodi in! Ipsum earum similique libero quaerat! Cum, perferendis id. Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    paragraph: `We bring hot and latest news to you from across the world in the field of automotives. You can always trust to hear when our "Daily Bugle" sounds, because you are not only following news from a trusted source but also get to devolope yourself and get information that might interest you.`
   }
 ]
 

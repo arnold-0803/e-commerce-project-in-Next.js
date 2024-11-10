@@ -42,7 +42,7 @@ export default function Contact() {
           <div className='flex-1 flex flex-col items-center lg:px-20'>
             <div>
               <h4 className='font-bold sm:text-[1.5rem] text-left text-blue-300'>
-                Have Question or Feedback?
+                Have a Question or Feedback?
               </h4>
               <p className='text-left pt-3 text-red-950'>
                 Please don’t hesitate to ask any questions or feedback you might
@@ -96,20 +96,20 @@ export default function Contact() {
           </div>
           <div className='flex-1 flexjustify-center items-center'>
             <h3 className='font-bold text-center text-blue-300 md:text-[1.2rem]'>
-              Sent us message
+              Send us message
             </h3>
             <form className='flex flex-col py-3 px-2'>
               <input className='w-[100%] h-[60px] outline-none bg-gray-100 border-[1px] px-2 mb-4 font-semibold'
-                type="text" placeholder='Name'
+                type="text" placeholder='Name' required
               />
               <input className='w-[100%] h-[55px] outline-none bg-gray-100 border-[1px] px-2 mb-4 font-semibold'
                 type="email" placeholder='Email' required
               />
               <input className='w-[100%] h-[55px] outline-none bg-gray-100 border-[1px] px-2 mb-4 font-semibold'
-                type="phone" placeholder='Phone Number'
+                type="tel" placeholder='Phone Number' required
               />
               <textarea className='h-[150px] bg-gray-100 border-[1px] px-2 py-3 mb-7 outline-none font-semibold'
-                name="text" id="" placeholder='Message'
+                name="text" id="" placeholder='Message' required
               ></textarea>
               <button className='btn rounded-none h-[55px] font-semibold'>
                 Send

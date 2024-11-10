@@ -13,15 +13,12 @@
 
 **-Blogs/News**
 
+## Technologies used
+*__-Next.js,__*
 
+*__-javaScript and__*
 
-
-### Technologies used
-*__Next.js,__*
-
-*__javaScript and__*
-
-*__TailwindCSS__*
+*__-TailwindCSS__*
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

@@ -18,7 +18,7 @@ export default function Footer() {
             />
           </h1>
           <p className='text-[#fff]'>
-            We are delighted to have at the carz
+            We are delighted to have you at the carz
           </p>
         </div>
         <div className='flex-1'>

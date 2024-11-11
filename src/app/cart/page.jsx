@@ -69,7 +69,7 @@ export default function ShoppingCart() {
                     transport, and refunding policies.
                  </em>
               <p className='font-black text-red-500 pt-3'>
-                sUBTOTAL: KES {getCartTotalAmount()}
+                SUBTOTAL: KES {getCartTotalAmount()}
               </p>
               <div className='flex justify-between items-center pt-2 xl:pr-48'>
               <Link className='quick-link font-medium'

@@ -13,7 +13,7 @@ export default async function blogs() {
     <div className='blogs-wrapper'>
       <div className='pt-2'>
         {blogsBannerData.map(blogBannerData => (
-          <div className='flex flex-wrap max-[640px]:flex-col'
+          <div className='flex flex-wrap max-[670px]:flex-col'
             key={blogBannerData.id}>
             <div className='relative flex-1 w-full h-[30%]'>
               <img className='w-full h-full'
@@ -32,8 +32,7 @@ export default async function blogs() {
               />
               <div className='absolute top-0 left-0 w-full h-full flex justify-center
                 items-center'>
-                <p className='text-[#fff] font-medium max-[640px]:px-2 sm:px-5 
-                  max-[640px]:text-[0.9rem]'>
+                <p className='text-[#fff] font-medium max-[640px]:px-2 sm:px-5'>
                   {blogBannerData.paragraph}
                 </p>
               </div>

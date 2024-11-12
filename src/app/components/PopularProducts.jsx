@@ -37,7 +37,7 @@ export default function PopularProducts({popularData}) {
 
   // ONLY TO THE TOP OF THIS COMPONENT
   useEffect(() => {
-    if(!isInitialLoading.current && window.innerWidth <= 1180 && componentRef.current){
+    if(!isInitialLoading.current && componentRef.current && window.innerWidth <= 1180){
       componentRef.current.scrollIntoView({
         behavior: "smooth",
         block: "start"

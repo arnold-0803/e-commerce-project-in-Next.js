@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons';
 import SkeletonLoader1 from './SkeletonLoader1';
 
 export default function GalleryCard({data}) {
@@ -31,11 +31,14 @@ export default function GalleryCard({data}) {
             {data.title}
           </h4>
           <Link className='min-[532px]:absolute min-[532px]:bottom-[15px] block pt-4
-            hover:font-semibold hover:tracking-[1px] transition-[0.3s]' 
+            hover:font-semibold hover:tracking-[1px] transition-[0.3s] flex justify-center
+            items-center' 
             href={`/gallery-details/${data.id}`}
           >
             Read more
-            <FontAwesomeIcon icon={faArrowRight}/>
+            <FontAwesomeIcon className='ml-1 text-[1.2rem]'
+              icon={faChevronCircleRight}
+            />
           </Link>
         </>
       )}

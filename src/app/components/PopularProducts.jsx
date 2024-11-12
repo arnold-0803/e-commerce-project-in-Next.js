@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import ProductCard from './ProductCard';
 import PagePagination from './PagePagination';
 
@@ -16,8 +16,35 @@ export default function PopularProducts({popularData}) {
   const currentItems = popularItems.slice(indexOfFirstItem, indexOfLastItem);
 
   const totalPages = Math.ceil(popularItems.length / itemsPerPage);
+
+
+  const componentRef = useRef(null);
+  const isInitialLoading = useRef(true);
+
+  // SCROLLING EFFECT TO THE TOP OF ENTIRE PAGE
+  useEffect(() => {
+
+    if(isInitialLoading.current){
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+      isInitialLoading.current = false;
+    }
+  }, []);
+
+  // ONLY TO THE TOP OF THIS COMPONENT
+  useEffect(() => {
+    if(!isInitialLoading.current && window.innerWidth <= 1180 && componentRef.current){
+      componentRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }, [currentPage])
+
   return (
-    <div className='list-holder'>
+    <div className='list-holder' ref={componentRef}>
       <h2 className='heading'>POPULAR SALES</h2>
       <ul className='card-list'>
         {currentItems.map(popular => (

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ProductCard from '../components/ProductCard';
 import PagePagination from '../components/PagePagination';
 
@@ -14,16 +14,37 @@ export default function ShopProducts({products}) {
 
   const totalPages = Math.ceil(products.length / itemsPerPage);
 
+  const componentRef = useRef(null);
+  const isInitialLoading = useRef(true);
+
+  // SCROLLING EFFECT TO THE TOP OF ENTIRE PAGE
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
+    if(isInitialLoading.current){
+      setTimeout(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }, 100);
+      isInitialLoading.current = false;
+    }
+  }, []);
+
+  // ONLY TO THE TOP OF THIS COMPONENT
+  useEffect(() => {
+
+    if(!isInitialLoading.current && componentRef.current){
+      componentRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+   
   }, [currentPage]);
 
   return (
     <div>
-      <ul className='card-list'>
+      <ul className='card-list' ref={componentRef}>
         {currentItems.map(product => (
           <li key={product.id}>
             <ProductCard customHref="product-details" data={product}/>

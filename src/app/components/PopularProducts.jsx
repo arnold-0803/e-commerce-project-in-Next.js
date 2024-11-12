@@ -25,10 +25,12 @@ export default function PopularProducts({popularData}) {
   useEffect(() => {
 
     if(isInitialLoading.current){
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+      setTimeout(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }, 100);
       isInitialLoading.current = false;
     }
   }, []);

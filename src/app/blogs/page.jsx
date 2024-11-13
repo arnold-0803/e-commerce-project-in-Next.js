@@ -41,10 +41,10 @@ export default async function blogs() {
         ))}
       </div>
       <div>
-        <h2 className='text-center pt-4 text-red-900 font-extrabold sm:text-[1.5rem]'>
+        <h2 className='text-center pt-4 text-red-900 font-extrabold sm:text-[1.8rem]'>
           BE IN THE KNOW 
         </h2>
-        <h3 className='text-center pb-10 text-red-950 font-bold'>
+        <h3 className='text-center pb-4 text-red-950 font-bold'>
           ABOUT WHAT&apos;S HAPPENING IN THE WORLD OF AUTOMOTIVES
         </h3>
         <ul className='lg:px-[120px] max-[1024px]:px-[15px] flex flex-col gap-[2rem]
